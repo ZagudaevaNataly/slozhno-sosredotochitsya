@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +57,7 @@
   content: "";
   display: inline-block;
   background-color: var(--accent-color);
-  box-shadow: 0  0 10px 5px var(--accent-color);
+  box-shadow: 0  0 5px var(--accent-color);
   margin-inline-start: 10px;
   border-radius: 50%;
   width: 12px;
@@ -129,6 +129,7 @@
   color: var(--subtitle-color);
   justify-content: end;
   font-weight: 700;
+  background-size: cover;
 }
 
 
@@ -139,7 +140,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 80px;
-  padding-block: 60px;
+  padding-block: 67px;
   padding-inline: 20px;
 }
 
@@ -192,7 +193,7 @@
 }
 
 .main__section-subtitle {
-  font-weight: 700;
+  font-weight: 400;
   background-color: var(--accent-color);
   color: var(--subtitle-color);
   margin-block-start: 24px;
@@ -286,6 +287,7 @@
 @media (width <=768px) {
   .header__theme-menu {
     padding-top: 172px;
+    place-self: center end;
   }
 
   .header__theme-menu-list {
