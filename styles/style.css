@@ -306,7 +306,8 @@
   }
 
   .main {
-    padding-block: 62px;
+    padding-block: 56px;
+    gap: 83px;
   }
 
   .main__section:first-child {
@@ -367,13 +368,13 @@
   }
 
   .main {
-    padding-block: 44px;
+    padding-block: 38px;
     padding-inline: 10px;
-    gap: 58px;
+    gap: 56px;
   }
 
   .main__section:first-child {
-  row-gap: 22px;
+  row-gap: 24px;
   }
 
   .main__section:nth-child(2) {
