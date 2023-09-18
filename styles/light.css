@@ -24,6 +24,7 @@
   --decorated-color: #353430;
   --section-text-color: var(--main-text-color);
   --button-color: var(--text-color);
+  --bg-color: #fff1f7;
 }
 
 .page.theme_light .rec {
@@ -48,6 +49,7 @@
   --decorated-color: #353430;
   --section-text-color: var(--main-text-color);
   --button-color: var(--text-color);
+  --bg-color: #fff1f7;
   }
 
   .page.theme_light .rec {
