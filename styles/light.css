@@ -23,6 +23,7 @@
   --main-text-color: #353430;
   --decorated-color: #353430;
   --section-text-color: var(--main-text-color);
+  --button-color: var(--text-color);
 }
 
 .page.theme_light .rec {
@@ -46,6 +47,7 @@
   --main-text-color: #353430;
   --decorated-color: #353430;
   --section-text-color: var(--main-text-color);
+  --button-color: var(--text-color);
   }
 
   .page.theme_light .rec {

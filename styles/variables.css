@@ -12,6 +12,7 @@
   --title-shadow-color: #ff0070;
   --decorated-color: #ff0070;
   --section-text-color: var(--accent-color);
+  --button-color: var(--accent-color);
   --text-color: #f1b2ce;
   --main-font-family: "IBM Plex Mono", "monospace";
   --main-font-size: 18px;
