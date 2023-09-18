@@ -80,6 +80,7 @@
   cursor: pointer;
   border: 0;
   color: var(--button-color);
+  height: 26px;
 }
 
 .header__theme-menu-button_active {
@@ -88,7 +89,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.40);
+  outline: 1px solid var(--button-color);
 }
 
 .header__theme-menu-button:focus {
@@ -110,10 +111,10 @@
 }
 
 .header__text {
-  padding: 277px 0 100px;
+  padding: 274px 0 100px;
   display: flex;
   flex-direction: column;
-  gap: 113px;
+  gap: 114px;
 }
 
 .header__subtitle {
@@ -130,6 +131,7 @@
   justify-content: end;
   font-weight: 700;
   background-size: cover;
+  font-size: var(--main-font-size);
 }
 
 
@@ -151,7 +153,7 @@
 
 .main__section:first-child {
   grid-template-columns: 315px 1fr;
-  row-gap: 28px;
+  row-gap: 20px;
 }
 
 .main__section:first-child .main__section-title {
@@ -162,7 +164,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   column-gap: 20px;
-  row-gap: 23px;
+  row-gap: 20px;
 }
 
 .main__section:nth-child(2) .main__section-title {
@@ -174,10 +176,14 @@
   grid-template-columns: 315px 1fr;
 }
 
+.main__section-header {
+  row-gap: 15px;
+}
+
 .main__section-block {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 
 .main__section-title {
@@ -198,8 +204,9 @@
   font-weight: 400;
   background-color: var(--accent-color);
   color: var(--subtitle-color);
-  margin-block-start: 24px;
+  margin-block-start: 20px;
   line-height: 23.4px;
+  font-size: var(--main-font-size);
 }
 
 .text-link {
@@ -216,7 +223,7 @@
 }
 
 .text-link:focus-visible {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--text-color);
 }
 
 .main__section:last-child {
@@ -309,7 +316,6 @@
 
   .main__section:first-child {
     grid-template-columns: 236px 1fr;
-    row-gap: 30px;
   }
 
 
@@ -338,7 +344,7 @@
 
   .header__theme-menu {
     place-self: center end;
-    padding-top: 66px;
+    padding-top: 64px;
   }
 
   .header__title {
@@ -347,8 +353,8 @@
   }
 
   .header__text {
-    padding: 74px 0;
-    gap: 54px;
+    padding: 66px 0;
+    gap: 58px;
   }
 
   .rec {
@@ -367,9 +373,9 @@
   }
 
   .main {
-    padding-block: 38px;
+    padding-block: 40px;
     padding-inline: 10px;
-    gap: 52px;
+    gap: 50px;
   }
 
   .main__section:first-child {
@@ -398,5 +404,9 @@
 
   .main__section-block {
     gap: 6px;
+  }
+
+  .main__section-subtitle {
+    margin-block-start: 24px;
   }
 }
