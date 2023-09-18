@@ -103,7 +103,7 @@
   display: flex;
   color: var(--title-color);
   font-weight: 700;
-  font-size: clamp(9.8125rem, 9.8125rem + 0vw, 9.8125rem);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   margin-inline-start: -10px;
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--title-shadow-color);
@@ -343,6 +343,7 @@
 
   .header__title {
     margin-inline-start: 0;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .header__text {
